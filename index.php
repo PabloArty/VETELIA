@@ -27,15 +27,65 @@
 <div id="menu-open" class="btn-box"><a href="#"><i class="ico icon-menu"></i><span class="txt-btn">MENÚ</span></a></div>
 
 <div id="fullpage">
-    <section id="inicio" class="section" data-menuanchor="home">
+
+    <!-- HOME -->
+    <section id="inicio" class="section" data-anchor="home">
         <img id="logo" src="assets/logo.png" alt="">
-        <div class="down"><a href="#about" data-menuanchor="about"><i class="icoflecha icon-flecha"></i></a></div>
+        <div class="bajar"><div class="flechcont_bajar"><a href="#about" data-menuanchor="about"><i class="icoflecha icon-flecha"></i></a></div></div>
     </section>
-    <section class="section" data-menuanchor="about">ABOUT</section>
-    <section class="section" data-menuanchor="products">PRODUCTS</section>
-    <section class="section" data-menuanchor="colors">COLORS</section>
-    <section class="section" data-menuanchor="price">PRICE</section>
-    <section class="section" data-menuanchor="contact">CONTACT</section>
+    <!-- HOME -->
+
+    <!-- ABOUT -->
+    <section class="section" data-anchor="about">
+        <div class="subir"><div class="flechcont_subir"><a href="#home" data-menuanchor="home"><i class="icoflecha icon-flecha"></i></a></div></div>
+        
+
+
+
+        <div class="bajar"><div class="flechcont_bajar"><a href="#products" data-menuanchor="products"><i class="icoflecha icon-flecha"></i></a></div></div>
+    </section>
+    <!-- ABOUT -->
+
+    <!-- PRODUCTS -->
+    <section class="section" data-anchor="products">
+        <div class="subir"><div class="flechcont_subir"><a href="#about" data-menuanchor="about"><i class="icoflecha icon-flecha"></i></a></div></div>
+        
+
+
+
+        <div class="bajar"><div class="flechcont_bajar"><a href="#colors" data-menuanchor="colors"><i class="icoflecha icon-flecha"></i></a></div></div>
+    </section>
+    <!-- PRODUCTS -->
+    
+    <!-- COLORS -->
+    <section class="section" data-anchor="colors">
+        <div class="subir"><div class="flechcont_subir"><a href="#products" data-menuanchor="products"><i class="icoflecha icon-flecha"></i></a></div></div>
+        
+
+
+
+        <div class="bajar"><div class="flechcont_bajar"><a href="#price" data-menuanchor="price"><i class="icoflecha icon-flecha"></i></a></div></div>
+    </section>
+    <!-- COLORS -->
+    
+    <!-- PRICE -->
+    <section class="section" data-anchor="price">
+        <div class="subir"><div class="flechcont_subir"><a href="#colors" data-menuanchor="colors"><i class="icoflecha icon-flecha"></i></a></div></div>
+
+
+
+        <div class="bajar"><div class="flechcont_bajar"><a href="#contact" data-menuanchor="contact"><i class="icoflecha icon-flecha"></i></a></div></div>        
+    </section>
+    <!-- PRICE -->
+    
+    <!-- CONTACT -->
+    <section class="section" data-anchor="contact">
+        <div class="subir"><div class="flechcont_subir"><a href="#price" data-menuanchor="price"><i class="icoflecha icon-flecha"></i></a></div></div>
+        
+
+
+    </section>
+    <!-- CONTACT -->
 </div>
 
 
@@ -48,9 +98,8 @@
 <script src="js/base.js"></script>
 <script>
     $('#fullpage').fullpage({
-    	anchors:['home', 'about','products','colors','price','contact','blank'],
+    	anchors:['home', 'about','products','colors','price','contact'],
     	menu: '#menunav',
-    	autoScrolling: false
     });
 </script>
 </body>
