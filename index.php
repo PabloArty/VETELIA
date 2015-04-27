@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>VETELIA</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
 	<link rel="stylesheet" href="css/jquery.fullPage.css">
 	<link rel="stylesheet" href="css/iconos.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900,600italic|Armata' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <ul id="menunav">

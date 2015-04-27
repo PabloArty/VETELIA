@@ -55,9 +55,11 @@ section{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300 !important;
 }
+/*
 .active{
 	text-decoration: underline;
 }
+*/
 
 .logo_verde{
 	position: absolute;
@@ -152,16 +154,37 @@ section{
 	left: 0px;
 }
 .image-slide-one img{
-	width: 60%;
   	position: relative;
-  	max-width: 780px;
-  	min-width: 550px;
+  	width: 750px;	
 }
 .txt-slide-one{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none !important;
 	position: absolute;
 	z-index: 3;
-	width: 40%;
-	max-width: 650px;
+	width: 20%;
+	max-width: 450px;
+	min-width: 380px;
+	text-align: justify;
+	right: 6%;
+  	top: 205px;
+  	color: #165F30;
+  	background-color: rgba(255,255,255,0.5);
+}
+.txt-slide-one h3{
+	font-size: 45px;
+  	font-weight: 200;
+  	font-style: italic;
+  	margin: 0px 0px 10px 0px;
+  	width: 100px;
+}
+.txt-slide-one p{
+	font-weight: 300;
+}
+.bar-slide-one{
+	width: 100%;
+	height: 6px;
+	background-color: #165F30;
 }
 /* ABOUT US */
 
@@ -219,3 +242,42 @@ section{
 	
 }
 /* PRODUCTOS */
+
+/* MEDIA QUERY DE 1250px HACIE ABAJO */
+@media (max-width: 1250px){
+
+	.txt-slide-one{
+		height: 300px;
+		overflow: scroll;
+		width: 570px;
+		top: 200px;	
+	}
+}
+/* MEDIA QUERY DE 1250px HACIE ABAJO */
+
+
+/* MEDIA QUERY DE 980px HACIE ABAJO */
+@media (max-width: 980px){
+	.image-slide-one img
+	{
+	display: none;
+	}
+	.txt-slide-one{
+		position: relative;
+		text-decoration: none !important;
+		margin: 0 auto;
+		top:-50px;
+		right: 0px;
+		height: 300px;
+		overflow: scroll;
+		min-width: 270px;
+		width: 300px;
+	}
+	.txt-slide-one h3{
+		width: auto;
+	}
+	.txt-slide-one p{
+		font-size: 20px;
+	}
+}
+/* MEDIA QUERY DE 980px HACIE ABAJO */
