@@ -77,7 +77,7 @@
     <!-- PRODUCTS -->
     <section id="productos" class="section" data-anchor="products">
         <div class="subir"><div class="flechcont_subir"><a href="#about" data-menuanchor="about"><i class="icoflecha icon-flecha"></i></a></div></div>
-        <div class="slide">
+        <div id="first-slide" class="slide">
             <article id="product_info">
                 <img src="assets/radix_logo.png">
                 <div id="white_line"></div>
@@ -155,20 +155,22 @@
     <!-- CONTACT -->
 </div>
 
-
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/jquery.fullPage.js"></script>
 <script src="js/vendors/jquery.easings.min.js"></script>
 <script src="js/base.js"></script>
-<script src="js/inview.js"></script>
 <script>
     $('#fullpage').fullpage({
     	anchors:['home', 'about','products','colors','price','contact'],
     	menu: '#menunav',
     });
+</script>
+<script src="js/inview.js"></script>
+<script>
+
+
 </script>
 </body>
 </html>
