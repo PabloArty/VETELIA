@@ -8,6 +8,10 @@ body{
 section{
 	position: relative;
 }
+.slide{
+	position: relative;
+}
+
 #menunav{
 	display: none;
 	position: fixed;
@@ -55,6 +59,16 @@ section{
 	text-decoration: underline;
 }
 
+.logo_verde{
+	position: absolute;
+	bottom: 75px;
+	width: 100%;
+	text-align: center;
+}
+.logo_verde img{
+	width: 200px;
+}
+
 /*FLECHA ARRIBA PRESET*/
 .subir{
 	position: absolute;
@@ -62,6 +76,7 @@ section{
 	height: 30px;
 	width: 100%;
 	text-align: center;
+	z-index: 9999;
 }
 .flechcont_subir{
 	position: relative;
@@ -88,6 +103,7 @@ section{
 	height: 30px;
 	width: 100%;
 	text-align: center;
+	z-index: 9999;
 }
 .flechcont_bajar{
 	position: relative;
@@ -127,10 +143,31 @@ section{
 }
 /* HOME */
 
-
-/* BOTON PRESET */
-.btn-box{
+/* ABOUT US */
+.image-slide-one{
 	position: absolute;
+	z-index: 2;
+	width: 70%;
+	bottom: 0px;
+	left: 0px;
+}
+.image-slide-one img{
+	width: 60%;
+  	position: relative;
+  	max-width: 780px;
+  	min-width: 550px;
+}
+.txt-slide-one{
+	position: absolute;
+	z-index: 3;
+	width: 40%;
+	max-width: 650px;
+}
+/* ABOUT US */
+
+/* MENÚ BOTON PRESET */
+.btn-box{
+	position: fixed;
 	font-family: 'Source Sans Pro', sans-serif;
 	top: 35px;
 	left: 50px;
@@ -162,7 +199,7 @@ section{
 	display: inline;
 	margin-right: 15px;
 }
-/* BOTON PRESET */
+/* MENÚ BOTON PRESET */
 
 /* PRODUCTOS */
 #productos{

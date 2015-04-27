@@ -67,7 +67,6 @@ html.fp-enabled,
     cursor: pointer;
     width: 0;
     height: 0;
-    border-style: solid;
     margin-top: -38px;
     -webkit-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
@@ -75,14 +74,21 @@ html.fp-enabled,
 }
 .fp-controlArrow.fp-prev {
     left: 15px;
-    width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    width: 30px;
+    height: 30px;
+    background: url(../icons/flecha_gris.svg);
+    background-size: contain;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 .fp-controlArrow.fp-next {
     right: 15px;
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    width: 30px;
+    height: 30px;
+    background: url(../icons/flecha_gris.svg);
+    background-size: contain;
 }
 .fp-scrollable {
     overflow: scroll;
@@ -112,7 +118,7 @@ html.fp-enabled,
     opacity: 1;
 }
 .fp-slidesNav.bottom {
-    bottom: 17px;
+    bottom: 150px;
 }
 .fp-slidesNav.top {
     top: 17px;
@@ -151,16 +157,17 @@ html.fp-enabled,
     width: 12px;
     margin: -6px 0 0 -6px;
     border-radius: 100%;
+    border:solid 1px #979797;
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    height: 4px;
-    width: 4px;
+    height: 7px;
+    width: 7px;
     border: 0;
-    background: #333;
+    background: #D8D8D8;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;

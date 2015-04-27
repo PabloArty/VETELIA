@@ -38,10 +38,23 @@
     <!-- ABOUT -->
     <section class="section" data-anchor="about">
         <div class="subir"><div class="flechcont_subir"><a href="#home" data-menuanchor="home"><i class="icoflecha icon-flecha"></i></a></div></div>
-        
-
-
-
+            <div class="slide">
+                <div class="image-slide-one"><img src="assets/bici/vetelia-radix-1.png" alt=""></div>
+                <div class="txt-slide-one">
+                    <h3>NUESTRA HISTORIA</h3>
+                    <div class="bar-slide-one"></div>
+                    <p>
+                        The birth of the company is due to the history of the two main partners, who shared at that time a series of values that drove the creation of a joint mobility and electric vehicles. With the dream of creating an electric and Mexican automobile, both partners begin to wonder how to make your dreams come true. <br /><br />
+                        Knowing the reality presented to them, a very high goal to build and market an electric car, then decided to develop a vehicle with less complexity to allow them to begin, after that, motorcycles and electric cars appeared the following steps to meet the target.<br /><br />
+                        With an eye on the first purpose (electric bicycle), initiates VETELIA gestation.<br /><br />
+                    </p>
+                </div>
+            </div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+        <article class="logo_verde"><img src="assets/logo_verde.png" alt="" ></article>
         <div class="bajar"><div class="flechcont_bajar"><a href="#products" data-menuanchor="products"><i class="icoflecha icon-flecha"></i></a></div></div>
     </section>
     <!-- ABOUT -->
