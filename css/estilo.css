@@ -233,13 +233,56 @@ section{
 
 #product_info{
 	position: relative;
-	width: 50%;
+	width: 40%;
 	display: inline-block;
 	left: 0px;
-	padding:0px 30px;
+	padding:0px 120px;
 }
 #white_line{
-	
+	position: relative;
+	border-bottom: solid #fff 3px;
+	width: 50%;
+	margin-top: 15px;
+}
+#product_description{
+	padding: 20px 250px 0px 0px;
+}
+#product_description p{
+	color: #fff;
+	font-family: 'IM Fell Great Primer', serif;
+	font-style: italic;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 22px;
+	text-align: justify;
+}
+#product_nav a{
+	font-family: 'Source Sans Pro', sans-serif;
+	display: inline-block;
+	margin: 30px 50px 0px 0px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+#product_nav a:hover{
+	color: transparent;
+}
+
+.product_button{
+	border: solid #fff 3px;
+	padding: 5px 10px;
+	background: transparent;
+}
+.product_button:hover{
+	border: solid #fff 3px;
+	padding: 5px 10px;
+	background: #fff;
+	color: #2c1f0d;
+}
+
+.no_lh{
+	line-height: 10px !important;
 }
 /* PRODUCTOS */
 
