@@ -90,14 +90,33 @@
                     <p> Radix is the perfect companion for those who make a journey out of a small commute, for those who always carry a story in their hearts, those who care about their small piece of the world. </p>
                 </div>
                 <div id="product_nav">
-                    <a href="" class="product_button">SPECS</a>
-                    <a href="" class="product_button">COLORS</a>
-                    <a href="" class="product_button">GALLERY</a>
-                    <a href="" class="product_button">PRICE</a>
+                    <a href="#" class="product_button">SPECS</a>
+                    <a href="#" class="product_button">COLORS</a>
+                    <a href="#" class="product_button">GALLERY</a>
+                    <a href="#" class="product_button">PRICE</a>
+                </div>
+                <div id="product_buy">
+                    <a href="#" class="buy_button">BUY</a>
                 </div>
             </article>
+            <div id="logo_footer">
+                <img id="logo" src="assets/logo.png" alt="">
+            </div>
         </div>
-        <div class="slide"></div>
+        
+        <div class="slide">
+            <article class="slide_row row1"></article>
+            <article class="slide_row row2">
+                
+            </article>
+            <article class="slide_row row3">
+                
+            </article>
+            <article class="slide_row row4">
+                
+                
+            </article>    
+        </div>
 
 
 

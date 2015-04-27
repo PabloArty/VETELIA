@@ -289,6 +289,143 @@ section{
 	background-repeat: no-repeat;
 }
 
+#productos > .fp-slidesNav{
+	display: none;
+}
+
+#product_info{
+	position: relative;
+  width: 45%;
+  display: inline-block;
+  left: 0px;
+  padding: 0px 70px;
+  top: 20px;
+}
+#white_line{
+	position: relative;
+	border-bottom: solid #fff 3px;
+	width: 50%;
+	margin-top: 15px;
+}
+#product_description{
+	  padding: 10px 15px 0px 0px;
+}
+#product_description p{
+	color: #fff;
+	font-family: 'IM Fell Great Primer', serif;
+	font-style: italic;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 22px;
+	text-align: justify;
+}
+#product_nav a{
+	font-family: 'Source Sans Pro', sans-serif;
+	display: inline-block;
+	margin: 30px 50px 0px 0px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+#product_nav a:hover{
+	color: #2c1f0d;
+}
+
+#product_buy{
+ width: 90%;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.buy_button{
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 10px 50px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	background-color: #C08132;
+	  z-index: 10;
+	-webkit-transition: all 0.5s ease-in-out, color 0.3s 0.3s;
+  -moz-transition: all 0.5s ease-in-out, color 0.3s 0.3s;
+  -o-transition: all 0.5s ease-in-out, color 0.3s 0.3s;
+  transition: all 0.5s ease-in-out, color 0.3s 0.3s;
+}
+
+.buy_button:hover{
+  box-shadow: -300px 0 0 0 rgba(255, 255, 255, 0.9) inset;
+  padding: 10px 50px;
+  color: #C08132;
+}
+
+.product_button{
+	border: solid #fff 3px;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+	background: transparent;
+	-webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.product_button:hover{
+	border: solid #fff 3px;
+	padding: 5px 10px;
+	background: #fff;
+}
+.no_lh{
+	line-height: 10px !important;
+}
+
+#logo_footer{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	text-align: center;
+	z-index: -1;
+}
+
+#logo_footer img{
+	width: 10%;
+}
+	
+	/* ESTILOS DENTRO DE LOS SLIDERS DE PRODUCTOS */
+	.slide_row{	
+		position: relative;
+		width: 100%;
+	}
+	.row1{
+		height: 15%;
+		background:#fff;
+	}	
+	.row2{
+		height: 15%;
+		background:#E9E8E8;
+	}	
+	.row3{
+		height: 35%;
+		background:#D8D8D8;
+	}
+	.row4{
+		height: 35%;
+	}	
+	/* ESTILOS DENTRO DE LOS SLIDERS DE PRODUCTOS */
+
+/* PRODUCTOS */
+
+/* MEDIA QUERY DE 1920px HACIA ARRIBA */
+@media (min-width: 1920px){
+
+	/* PRODUCTOS */
+#productos{
+	background: url('../assets/products_bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 #product_info{
 	position: relative;
 	width: 40%;
@@ -324,25 +461,44 @@ section{
 	font-weight: 600;
 }
 #product_nav a:hover{
-	color: transparent;
+	color: #2c1f0d;
+}
+
+#product_buy{
+  width: 60%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.buy_button{
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 10px 50px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	background-color: #C08132;
 }
 
 .product_button{
 	border: solid #fff 3px;
 	padding: 5px 10px;
 	background: transparent;
+	-webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .product_button:hover{
 	border: solid #fff 3px;
 	padding: 5px 10px;
 	background: #fff;
-	color: #2c1f0d;
 }
-
 .no_lh{
 	line-height: 10px !important;
 }
 /* PRODUCTOS */
+}
+/* MEDIA QUERY DE 1920px HACIA ARRIBA */
 
 
 /* MEDIA QUERY DE 1550px HACIE ARRIBA */
