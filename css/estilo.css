@@ -163,3 +163,22 @@ section{
 	margin-right: 15px;
 }
 /* BOTON PRESET */
+
+/* PRODUCTOS */
+#productos{
+	background: url('../assets/products_bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#product_info{
+	position: relative;
+	width: 50%;
+	display: inline-block;
+	left: 0px;
+	padding:0px 30px;
+}
+#white_line{
+	
+}
+/* PRODUCTOS */

@@ -47,9 +47,23 @@
     <!-- ABOUT -->
 
     <!-- PRODUCTS -->
-    <section class="section" data-anchor="products">
+    <section id="productos" class="section" data-anchor="products">
         <div class="subir"><div class="flechcont_subir"><a href="#about" data-menuanchor="about"><i class="icoflecha icon-flecha"></i></a></div></div>
-        
+        <div class="slide">
+            <article id="product_info">
+                <img src="assets/radix_logo.png">
+                <div id="white_line"></div>
+                <div id="product_description">
+                    <p> For those who don´t count years but miles and laughter. </p>
+                    <p> For those whom, adveture is an old friend. </p>
+                    <p> For those who invented their own movement. </p>
+                    <p> It´s name means root, because it´s inspired on organic energy, poetic and gas free, the cinetic energy that every living human body generates, with the strong will of being present. </p>
+                    <p> It is about the origin of the whole history of transport, the simplest, the wisest, the one that will never cease to be present. </p>
+                    <p> Radix is the perfect companion for those who make a journey out of a small commute, for those who always carry a story in their hearts, those who care about their small piece of the world. </p>
+                </div>
+            </article>
+        </div>
+        <div class="slide"></div>
 
 
 
