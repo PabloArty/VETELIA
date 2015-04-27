@@ -66,7 +66,57 @@
                     <p>"We believe that small can beat the big, design art in motion, creating incredible electric vehicles and specialized"</p>
                 </div>
             </div>
-            <div class="slide"></div>
+            <div class="slide">
+                <div class="half-top">
+                    <div class="half-inleft">
+                        <div class="half-inleft-cont">
+                            <h3>VISION</h3>
+                            <div class="bar-slide-three"></div>
+                            <p>Understanding the mobility needs of our users, designing and developing vehicles that enable new and better forms of transportation.</p>
+                        </div>
+                    </div>
+                    <div class="half-inright">
+                        <div class="half-inright-cont">
+                            <h3>VISION</h3>
+                            <div class="bar-slide-three"></div>
+                            <p>Giving people the chance to discover new ways of moving, designing electrical and specialized cars.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="half-bottom">
+                    
+                    <div class="half-bottom-title">
+                        <h3>OBJETIVES</h3>
+                        <div class="bar-slide-three"></div>
+                    </div>
+                    <table>
+                    <td class="mano objt">
+                        <div class="objt-in">
+                        <img src="icons/manoplanta_gris.svg" alt="" class="objt-image">
+                        <p>
+                            Commitment to health care and the environment.
+                        </p>
+                        </div>
+                    </td>
+                    <td class="tool objt">
+                        <div class="objt-in">
+                        <img src="icons/tools_gris.svg" alt="" class="objt-image">
+                        <p>
+                            Be a source of work for the state of Guanajuato, improving the quality life of the people.
+                        </p>
+                        </div>
+                    </div>
+                    <td class="carro objt">
+                        <div class="objt-in">
+                        <img src="icons/carrito_gris.svg" alt="" class="objt-image">
+                        <p>
+                            Boost production of electric vehicles and technology generation in Mexico.
+                        </p>
+                        </div>
+                    </td>
+                    </table>
+                </div>
+            </div>
             <div class="slide"></div>
             <div class="slide"></div>
         <article class="logo_verde"><img src="assets/logo_verde.png" alt="" ></article>

@@ -246,6 +246,111 @@ section{
 }
 /* Slider page #2 */
 
+/* Slider page #3 */
+.half-inleft-cont{
+	position: absolute;
+	width: 350px;
+	height: 300px;
+	top: 50px;
+	right: 50px;
+}
+.half-inright-cont{
+	position: absolute;
+	width: 350px;
+	height: 300px;
+	top: 50px;
+	left: 50px;
+}
+.half-top{
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+	width: 100%;
+	height: 30%;
+}
+.half-top h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	color: #165F30;
+	font-size: 30px;
+	font-weight: 200;
+	font-style: italic;
+}
+.half-inleft{
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.half-inright{
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+.half-bottom{
+	position: relative;
+	width: 100%;
+	height: 70%;
+	text-align: center;
+}
+.half-bottom-title{
+	position: relative;
+	margin: 0 auto;
+	width: 480px;
+	text-align: left;
+}
+.half-bottom-title h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	color: #165F30;
+	font-size: 30px;
+	font-weight: 200;
+	font-style: italic;
+}
+.bar-slide-three{
+	width: 100%;
+	height: 6px;
+	background-color: #165F30;
+}
+table{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	border: none;
+}
+.objt{
+	position: relative;
+	height: 200px;
+	width: 300px;
+	display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #282828;
+	border: none;
+}
+.objt img{
+	position: relative;
+	margin: 0 auto;
+	width: 120px;
+}
+.objt p{
+	width: 200px;
+	text-align: justify;
+	font-weight: 300;
+}
+.objt-in{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+
+/* Slider page #3 */
+
+/* ABOUT US */
+
 /* MENÚ BOTON PRESET */
 .btn-box{
 	position: fixed;
@@ -585,6 +690,109 @@ section{
 	color: #165F30;
 	right: 0px;
 	}
+
+	/* Slider page #3 */
+.half-inleft-cont{
+	position: absolute;
+	width: 480px;
+	height: 300px;
+	top: 150px;
+	right: 50px;
+}
+.half-inright-cont{
+	position: absolute;
+	width: 480px;
+	height: 300px;
+	top: 150px;
+	left: 50px;
+}
+.half-top{
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+	width: 100%;
+	height: 50%;
+}
+.half-top h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	color: #165F30;
+	font-size: 40px;
+	font-weight: 200;
+	font-style: italic;
+}
+.half-inleft{
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.half-inright{
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+.half-bottom{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+.half-bottom-title{
+	position: relative;
+	margin: 0 auto;
+	width: 480px;
+	text-align: left;
+}
+.half-bottom-title h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	color: #165F30;
+	font-size: 40px;
+	font-weight: 200;
+	font-style: italic;
+}
+.bar-slide-three{
+	width: 100%;
+	height: 6px;
+	background-color: #165F30;
+}
+table{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	border: none;
+}
+.objt{
+	position: relative;
+	height: 200px;
+	width: 300px;
+	display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #282828;
+	border: none;
+}
+.objt img{
+	position: relative;
+	margin: 0 auto;
+	width: 120px;
+}
+.objt p{
+	width: 200px;
+	text-align: justify;
+	font-weight: 300;
+}
+.objt-in{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+
+/* Slider page #3 */
 }
 /* MEDIA QUERY DE 1550px HACIE ARRIBA */
 
