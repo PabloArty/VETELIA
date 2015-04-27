@@ -133,6 +133,7 @@
 <script src="js/jquery.fullPage.js"></script>
 <script src="js/vendors/jquery.easings.min.js"></script>
 <script src="js/base.js"></script>
+<script src="js/inview.js"></script>
 <script>
     $('#fullpage').fullpage({
     	anchors:['home', 'about','products','colors','price','contact'],
