@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/jquery.fullPage.css">
 	<link rel="stylesheet" href="css/iconos.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/cssSlider.css" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400italic' rel='stylesheet' type='text/css'>
 
@@ -158,8 +159,8 @@
             <article class="slide_row row1"></article>
             <article class="slide_row row2">
                 <ul class="tabs">
-                    <li><a href="#">MOTOR Y SISTEMA DE ENERGÍA</a></li>
-                    <li><a href="#">ANATOMÍA, CUADRO, SUSPENSIÓN Y FRENOS</a></li>
+                    <li class="has-br"><a href="#">MOTOR Y SISTEMA DE ENERGÍA</a></li>
+                    <li class="has-br"><a href="#">ANATOMÍA, CUADRO, SUSPENSIÓN Y FRENOS</a></li>
                     <li><a href="#">CARACTERÍSTICAS</a></li>
                 </ul>
             </article>
@@ -168,15 +169,47 @@
                     
                 <div class="tabs_slide">
                     <article class="slide_row row3">
-                
+                        <!-- -->
+
+                        <div class="csslider">
+                            <input type="radio" name="slides" id="slides_1" checked />
+                            <input type="radio" name="slides" id="slides_2" />
+                            <input type="radio" name="slides" id="slides_3" />
+                            <input type="radio" name="slides" id="slides_4" />
+                            <input type="radio" name="slides" id="slides_N" />
+                            <ul>
+                                <li>Content of slide 1</li>
+                                <li>Content of slide 2</li>
+                                <li>Content of slide 3</li>
+                                <li>Content of slide 4</li>
+                                <li>Content of slide N</li>
+                            </ul>
+                            <div class="navigation">
+                                <div>
+                                    <label for="slides_1"></label>
+                                    <label for="slides_2"></label>
+                                    <label for="slides_3"></label>
+                                    <label for="slides_4"></label>
+                                    <label for="slides_N"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- -->
                     </article>
                     <article class="slide_row row4">
 
                         <div id="gray" class="row4_left">
-                            
+                            <p>Motor de Corriente Directa Brushless de 1440W (libre de mantenimiento).</p>
+                            <p>Computadora Battery Management System.</p>
+                            <p>Cargador Inteligente.</p>
+                            <p>Velocidad punta de 55Km/h.</p>
                         </div>
                         <div id="orange" class="row4_right">
-                            
+                            <p>Motor de Corriente Directa Brushless de 1440W (libre de mantenimiento).</p>
+                            <p>Computadora Battery Management System.</p>
+                            <p>Cargador Inteligente.</p>
+                            <p>Velocidad punta de 55Km/h.</p>
                         </div>
 
                     </article>
@@ -189,10 +222,12 @@
                     <article class="slide_row row4">
 
                         <div id="green" class="row4_left">
-                            
+                            <p>Llantas Continental Rodado 26”, 2.2.</p>
+                            <p>Estructura de Aluminio.</p>
                         </div>
                         <div id="black" class="row4_right">
-                            
+                            <p>Suspensión neumática de amortiguación completa.</p>
+                            <p>Frenos Hidráulicos de 180MM.</p>
                         </div>
                         
                     </article>  
@@ -205,10 +240,17 @@
                     <article class="slide_row row4">
 
                         <div id="dark_gray" class="row4_left">
-                            
+                            <p>Computadora de viaje.</p>
+                            <p>Acelerador de puño.</p>
+                            <p>Capacidad de carga 120 Kg (incluye conductor, accesorios y carga extra).</p>
+                            <p>Peso: 32 Kg.</p>
                         </div>
                         <div id="light_orange" class="row4_right">
-                            
+                            <p>Title Analist Display Versión 3.0.</p>
+                            <p>Salpicadoras Topeak.</p>
+                            <p>Luz frontal Hiper LED.</p>
+                            <p>Pintura automotriz.</p>
+                            <p>Sensor de torque para pedaleo asistido.</p>
                         </div>
                         
                     </article>  
@@ -261,6 +303,7 @@
 <script src="js/jquery.fullPage.js"></script>
 <script src="js/vendors/jquery.easings.min.js"></script>
 <script src="js/base.js"></script>
+
 <script>
     $('#fullpage').fullpage({
     	anchors:['home', 'about','products','colors','price','contact'],
@@ -280,5 +323,6 @@
 
       });
 </script>
+
 </body>
 </html>
