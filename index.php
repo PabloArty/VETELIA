@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="css/iconos.css">
     <link rel="stylesheet" href="css/estilo.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,900' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900,600italic|Armata' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400italic' rel='stylesheet' type='text/css'>
 
 </head>
@@ -45,7 +44,7 @@
             <div class="slide">
                 <div class="image-slide-one"><img src="assets/bici/vetelia-radix-1.png" alt=""></div>
                 <div class="txt-slide-one">
-                    <h3>NUESTRA HISTORIA</h3>
+                    <h3>OUR HISTORY</h3>
                     <div class="bar-slide-one"></div>
                     <p>
                         The birth of the company is due to the history of the two main partners, who shared at that time a series of values that drove the creation of a joint mobility and electric vehicles. With the dream of creating an electric and Mexican automobile, both partners begin to wonder how to make your dreams come true. <br /><br />
@@ -54,7 +53,19 @@
                     </p>
                 </div>
             </div>
-            <div class="slide"></div>
+            <div class="slide">
+                  <div class="image-slide-two"><img src="assets/bici/vetelia-radix-2.png" alt=""></div>
+                <div class="txt-slide-two">
+                    <h3>OUR MOTIVATION</h3>
+                    <div class="bar-slide-one"></div>
+                    <p>
+                        A range of electric transport vehicles in which the care of the environment of emissions in large cities is achieved is created.
+                    </p>
+                </div>
+                <div class="quote-slide-two">
+                    <p>"We believe that small can beat the big, design art in motion, creating incredible electric vehicles and specialized"</p>
+                </div>
+            </div>
             <div class="slide"></div>
             <div class="slide"></div>
             <div class="slide"></div>
