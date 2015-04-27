@@ -393,6 +393,23 @@ section{
 }
 	
 	/* ESTILOS DENTRO DE LOS SLIDERS DE PRODUCTOS */
+	.panes{
+		margin: 0px;
+		padding: 0px;
+		height: 70%;
+	}
+	.tabs{
+		margin: 0px;
+		padding: 0px;
+	}
+	.tabs li{
+		margin: 0px;
+		padding: 0px;
+	}
+	.tabs_slide{
+		width: 100%;
+		height: 100%;
+	}
 	.slide_row{	
 		position: relative;
 		width: 100%;
@@ -406,12 +423,44 @@ section{
 		background:#E9E8E8;
 	}	
 	.row3{
-		height: 35%;
+		height: 50%;
 		background:#D8D8D8;
 	}
 	.row4{
-		height: 35%;
-	}	
+		height: 50%;
+	}
+		#gray{
+			background: #979797;
+		}
+		#orange{
+			background: #C08132;
+		}
+		#green{
+			background: #2D3621;
+		}
+		#black{
+			background: #141414;
+		}
+		#dark_gray{
+			background: #232323;
+		}
+		#light_orange{
+			background: #C08132;
+		}
+
+		.row4_left{
+			float: left;
+			left: 0px;
+			position: relative;
+			width: 50%;
+			height: 100%;
+		}
+		.row4_right{
+			display: inline-block;
+			position: relative;
+			width: 50%;
+			height: 100%;
+		}	
 	/* ESTILOS DENTRO DE LOS SLIDERS DE PRODUCTOS */
 
 /* PRODUCTOS */

@@ -107,15 +107,65 @@
         <div class="slide">
             <article class="slide_row row1"></article>
             <article class="slide_row row2">
-                
+                <ul class="tabs">
+                    <li><a href="#">MOTOR Y SISTEMA DE ENERGÍA</a></li>
+                    <li><a href="#">ANATOMÍA, CUADRO, SUSPENSIÓN Y FRENOS</a></li>
+                    <li><a href="#">CARACTERÍSTICAS</a></li>
+                </ul>
             </article>
-            <article class="slide_row row3">
+
+            <div class="panes">
+                    
+                <div class="tabs_slide">
+                    <article class="slide_row row3">
                 
-            </article>
-            <article class="slide_row row4">
+                    </article>
+                    <article class="slide_row row4">
+
+                        <div id="gray" class="row4_left">
+                            
+                        </div>
+                        <div id="orange" class="row4_right">
+                            
+                        </div>
+
+                    </article>
+                </div>    
                 
+                <div class="tabs_slide">
+                    <article class="slide_row row3">
                 
-            </article>    
+                    </article>
+                    <article class="slide_row row4">
+
+                        <div id="green" class="row4_left">
+                            
+                        </div>
+                        <div id="black" class="row4_right">
+                            
+                        </div>
+                        
+                    </article>  
+                </div>
+                
+                <div class="tabs_slide">
+                    <article class="slide_row row3">
+                
+                    </article>
+                    <article class="slide_row row4">
+
+                        <div id="dark_gray" class="row4_left">
+                            
+                        </div>
+                        <div id="light_orange" class="row4_right">
+                            
+                        </div>
+                        
+                    </article>  
+                </div>
+
+            </div>
+            
         </div>
 
 
@@ -168,9 +218,17 @@
     });
 </script>
 <script src="js/inview.js"></script>
-<script>
 
+<script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+<script type="text/javascript">
+    // setup ul.tabs to work as tabs for each div directly under div.panes
+    $("ul.tabs").tabs("div.panes > div.tabs_slide", {
+      /* tabs configuration goes here */
 
+      // another property
+      effect: 'slide',
+
+      });
 </script>
 </body>
 </html>
