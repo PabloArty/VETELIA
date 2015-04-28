@@ -36,7 +36,6 @@ section{
 	width: 100%;
 	height: 100%;
 }
-
 .menu_btn{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 900;
@@ -356,7 +355,7 @@ table{
 	position: fixed;
 	font-family: 'Source Sans Pro', sans-serif;
 	top: 35px;
-	left: 50px;
+	left: 30px;
 	border:solid 2px #165F30;
 	width: 105px;
 	height: 35px;
@@ -612,10 +611,220 @@ table{
 
 /* PRODUCTOS */
 
+/* COLORES */
+.logo_radix_negro{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 100px;
+}
+.bike-cont {
+	  position: relative;
+	  width: 21%;
+	  max-width: 350px;
+	  min-width: 250px;
+	  height: 320px;
+	  margin: 0 auto;
+	  text-align: center;
+}
+.bike-color{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+.bike-name{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	font-size: 18px;
+	font-style: italic;
+	position: absolute;
+	top: 110px;
+  	right: 0px;
+}
+.buy_bike{
+	position: absolute;
+ 	width: 200px;
+  	text-align: center;
+	top: 290px;
+  	right: -220px;
+}
+.buy_button{
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 10px 50px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	background-color: #C08132;
+	  z-index: 10;
+	-webkit-transition: all 0.5s ease-in-out, color 0.3s 0.3s;
+  -moz-transition: all 0.5s ease-in-out, color 0.3s 0.3s;
+  -o-transition: all 0.5s ease-in-out, color 0.3s 0.3s;
+  transition: all 0.5s ease-in-out, color 0.3s 0.3s;
+}
+
+.buy_button:hover{
+  box-shadow: -300px 0 0 0 rgba(255, 255, 255, 0.9) inset;
+  padding: 10px 50px;
+  color: #C08132;
+}
+
+.nav-colors{
+	right: 80px;
+  	top: 35%;
+  	left: inherit;
+}
+.nav-colors ul li{
+	display: block;
+	margin: 40px 0px;
+	border:none;
+}
+.nav-colors ul li:nth-child(1) a span{
+	background-color: #C08132;
+}
+.nav-colors ul li:nth-child(2) a span{
+	background-color: #547c33;
+}
+.nav-colors ul li:nth-child(3) a span{
+	background-color: #4a4a4a;
+}
+.nav-colors ul li:nth-child(4) a span{
+	background-color: black;
+}
+/* COLORES */
+
+/* PRICES */
+.prices-cont{
+	position: relative;
+	width: 90%;
+	height: 90%;
+	text-align: center;
+	margin: 0 auto;
+	top: 70px;
+	overflow: scroll;
+}
+#precios h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 15px auto;
+	position: relative;
+	font-size: 40px;
+	text-align: center;
+}
+.txt-prices{
+	position: relative;
+	width: 70%;
+	height: 200px;
+	border: solid 2px #C08132;
+	margin: 0 auto;
+	text-align: left;
+}
+.price-points{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	color: #282828;
+	display: block;
+	position: relative;
+	top: 35px;
+	font-size: 18px;
+	text-transform:uppercase;
+	margin-left: 10px;	
+}
+.price-note{
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	margin-left: 10px;
+	bottom: 50px;
+}
+.payments{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	position: relative;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 400px;
+	text-transform: uppercase;
+	text-align: left;
+}
+.buy_prices{
+	position: relative;
+	margin-left: 0 auto;
+	text-align: center;
+	bottom: -20px;
+}
+/* PRICES */
+
+/* CONTACTO */
+.contact-cont{
+	width: 500px;
+	height: 260px;
+	position: relative;
+	margin: 0 auto;
+	top: -50px;
+}
+.cont-up{
+	position: relative;
+	width: 100%;
+	height: 60%;
+	border-top: 1px solid #165F30;
+	border-bottom: 1px solid #165F30;
+}
+.cont-up h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	text-decoration: underline;
+	margin-top: 25px;
+	font-size: 14px;
+}
+.cont-up h5{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	margin-top: 25px;
+	font-size: 16px;
+}
+.cont-up span{
+	font-family: 'Source Sans Pro', sans-serif;
+	display: inline-block;
+	font-size:13px;
+	margin:0;
+}
+.cont-up span:nth-child(2){
+	width: 40%;
+}
+.cont-up span:nth-child(3){
+	text-align: center;
+	width: 23%;
+}
+.cont-up span:nth-child(4){
+	text-align: right;
+	width: 23%;
+}
+.cont-down{
+	position: relative;
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid #165F30;
+}
+.cont-down h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	text-decoration: underline;
+	margin-top: 35px;
+	font-size: 14px;
+}
+.cont-down a{
+	display: inline-block;
+	font-size: 28px;
+	text-decoration: none;
+	color: #282828;
+}
+/* CONTACTO */
+
+
 /* MEDIA QUERY DE 1920px HACIA ARRIBA */
 @media (min-width: 1920px){
 
-	/* PRODUCTOS */
+/* PRODUCTOS */
 #productos{
 	background: url('../assets/products_bg.jpg');
 	background-size: cover;
@@ -832,9 +1041,23 @@ table{
 	height: 200px;
 	margin: 0 auto;
 }
-
-
 /* Slider page #3 */
+
+.logo_radix_negro{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 100px;
+}
+.bike-cont{
+	position: relative;
+	width: 28%;
+	max-width: 350px;
+	min-width: 250px;
+	height: 420px;
+	margin: 0 auto;
+	text-align: center;
+}
 }
 /* MEDIA QUERY DE 1550px HACIE ARRIBA */
 
@@ -850,7 +1073,51 @@ table{
 	}
 
 	.quote-slide-two{
-	display: none;
+		display: none;
+	}
+	.half-top{
+		display: none;
+	}
+	.half-bottom{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+	}
+	.half-bottom-title{
+		top: 105px;
+	}
+	table{
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+		border: none;
+		top: 150px;
+	}
+	.objt{
+		position: relative;
+		height: 200px;
+		width: 300px;
+		display: inline-block;
+		font-family: 'Source Sans Pro', sans-serif;
+		color: #282828;
+		border: none;
+	}
+	.objt img{
+		position: relative;
+		margin: 0 auto;
+		width: 120px;
+	}
+	.objt p{
+		width: 200px;
+		text-align: justify;
+		font-weight: 300;
+	}
+	.objt-in{
+		position: relative;
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
 	}
 
 }
@@ -859,6 +1126,12 @@ table{
 
 /* MEDIA QUERY DE 980px HACIE ABAJO */
 @media (max-width: 980px){
+	.btn-box{
+		top: 17px;
+		left: 17px;
+		background-color: #fff;
+	}
+
 	/* Slider Page #1 */
 	.image-slide-one img
 	{
@@ -873,7 +1146,7 @@ table{
 		height: 300px;
 		overflow: scroll;
 		min-width: 270px;
-		width: 300px;
+		width: 230px;
 	}
 	.txt-slide-one h3{
 		width: auto;
@@ -890,9 +1163,9 @@ table{
 		position: relative;
 		text-decoration: none !important;
 		margin: 0 auto;
-		top:-50px;
-		right: 0px;
-		height: 300px;
+		top: -20px;
+  		right: 0px;
+  		height: 330px;
 		overflow: scroll;
 		min-width: 270px;
 		width: 300px;
@@ -907,5 +1180,153 @@ table{
 	.txt-slide-two p{
 		font-weight: 300;
 	}
+	.half-bottom{
+		overflow: auto;
+		height: 350px;
+		text-align: center;
+		top: -30px;
+	}
+	.half-bottom-title{
+		width: 260px;
+		top: 0px;
+	}
+	.objt{
+		position: relative;
+		height: 250px;
+		width: 300px;
+		display: block;
+		font-family: 'Source Sans Pro', sans-serif;
+		color: #282828;
+		border: none;
+		margin: 0 auto;
+		vertical-align: middle;
+	}
+
+	table{
+		top: 50px;
+		text-align: center;
+		overflow: auto;
+	}
+
+	.nav-colors{
+		right: 80px;
+	  	top: 25%;
+	  	left: inherit;
+	}
+	.nav-colors ul li{
+		display: block;
+		margin: 40px 0px;
+		border:none;
+	}
+	.bike-cont{
+		min-width: 200px;
+		height: 480px;
+		top: 120px;
+	}
+	.bike-name{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 200;
+		font-size: 18px;
+		font-style: italic;
+		position: absolute;
+		top: 70px;
+	  	right: -10px;
+	}
+	.buy_bike{
+		  position: absolute;
+		  width: 200px;
+		  text-align: center;
+		  top: 262px;
+		  right: -8px;
+		  bottom: -20px;
+	}
+	.nav-colors{
+		display: none;
+	}
+	.logo_radix_negro{
+		display: none;
+	}
+	.logo_verde{
+		display: none;
+	}
+
+	.prices-cont{
+	position: relative;
+	width: 90%;
+	height: 90%;
+	text-align: center;
+	margin: 0 auto;
+	top: 20px;
+	overflow: scroll;
+	}
+	#precios h3{
+		font-size: 30px;
+	}
+	.txt-prices{
+		position: relative;
+		width: 95%;
+		height: 200px;
+		border: solid 2px #C08132;
+		margin: 0 auto;
+		text-align: left;
+	}
+	.price-points{
+		top: 10px;
+		font-size: 16px;
+		text-transform:uppercase;
+		margin: 5px 5px;
+	}
+	.price-note{
+		bottom: 10px;
+	}
+	.payments{
+		text-align: center;
+		width: 300px;
+		font-size: 14px;
+	}
+	.buy_prices{
+		position: relative;
+		margin-left: 0 auto;
+		text-align: center;
+		bottom: -20px;
+	}
+
+	.fp-slidesNav.bottom {
+    display: none;
+	}
+	.contact-cont{
+	width: 80%;
+	height: 260px;
+	position: relative;
+	margin: 0 auto;
+	top: -50px;
+	}
 }
+
+@media (max-width: 640px){
+	.contact-cont{
+	width: 80%;
+	height: 360px;
+	position: relative;
+	margin: 0 auto;
+	top: -50px;
+	text-align: center;
+	}
+	.cont-up span:nth-child(2){
+		display: none;
+	}
+
+}
+
+@media (max-width: 400px){
+	.payments{
+		display: none;
+	}
+	.txt-slide-one{
+		width: 250px;
+		top: 0px;
+	}
+}
+
+
 /* MEDIA QUERY DE 980px HACIE ABAJO */

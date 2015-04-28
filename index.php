@@ -20,7 +20,7 @@
     <li class="menu-item" data-menuanchor="home" class="active"><a class="menu_btn" href="#home">HOME</a></li>
     <li class="menu-item" data-menuanchor="about"><a class="menu_btn" href="#about">ABOUT US</a></li>
     <li class="menu-item" data-menuanchor="products"><a class="menu_btn" href="#products">PRODUCTS</a></li>
-    <li class="menu-item" data-menuanchor="price"><a class="menu_btn" href="#prices">PRICES</a></li>
+    <li class="menu-item" data-menuanchor="price"><a class="menu_btn" href="#price">PRICES</a></li>
     <li class="menu-subitem"><a class="menu_btn" href="#">BLOG</a></li>
     <li class="menu-subitem"><a class="menu_btn" href="#">STORE</a></li>
     <li class="menu-subitem"><a class="menu_btn" href="#">CONTACT</a></li>
@@ -56,22 +56,22 @@
             </div>
             <div class="slide">
                   <div class="image-slide-two"><img src="assets/bici/vetelia-radix-2.png" alt=""></div>
-                <div class="txt-slide-two">
+                    <div class="txt-slide-two">
                     <h3>OUR MOTIVATION</h3>
                     <div class="bar-slide-one"></div>
                     <p>
                         A range of electric transport vehicles in which the care of the environment of emissions in large cities is achieved is created.
                     </p>
-                </div>
-                <div class="quote-slide-two">
+                    </div>
+                    <div class="quote-slide-two">
                     <p>"We believe that small can beat the big, design art in motion, creating incredible electric vehicles and specialized"</p>
-                </div>
+                    </div>
             </div>
             <div class="slide">
                 <div class="half-top">
                     <div class="half-inleft">
                         <div class="half-inleft-cont">
-                            <h3>VISION</h3>
+                            <h3>MISION</h3>
                             <div class="bar-slide-three"></div>
                             <p>Understanding the mobility needs of our users, designing and developing vehicles that enable new and better forms of transportation.</p>
                         </div>
@@ -267,22 +267,84 @@
     <!-- PRODUCTS -->
     
     <!-- COLORS -->
-    <section class="section" data-anchor="colors">
+    <section id="colores" class="section" data-anchor="colors">
         <div class="subir"><div class="flechcont_subir"><a href="#products" data-menuanchor="products"><i class="icoflecha icon-flecha"></i></a></div></div>
-        
+        <article class="logo_radix_negro"><img src="assets/radix_logo_negro.png" alt="" ></article>
+            
+            <div class="slide">
+                <div class="bike-cont">
+                    <img class="bike-color" src="assets/bici/colores/ocre.png" alt="">
+                    <span class="bike-name" style="color:#C08132;">OCRE</span>
+                    <div class="buy_bike">
+                        <a href="#" class="buy_button">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="bike-cont">
+                    <img class="bike-color" src="assets/bici/colores/verde.png" alt="">
+                    <span class="bike-name" style="color:#2D3621;">GREEN</span>
+                    <div class="buy_bike">
+                        <a href="#" class="buy_button">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="bike-cont">
+                    <img class="bike-color" src="assets/bici/colores/oxford.png" alt="">
+                    <span class="bike-name" style="color:#232323;">OXFORD</span>
+                    <div class="buy_bike">
+                        <a href="#" class="buy_button">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="bike-cont">
+                    <img class="bike-color" src="assets/bici/colores/negro.png" alt="">
+                    <span class="bike-name" style="color:black;">BLACK</span>
+                    <div class="buy_bike">
+                        <a href="#" class="buy_button">BUY</a>
+                    </div>
+                </div>
+            </div>
 
-
-
+        <article class="logo_verde"><img src="assets/logo_verde.png" alt="" ></article>
         <div class="bajar"><div class="flechcont_bajar"><a href="#price" data-menuanchor="price"><i class="icoflecha icon-flecha"></i></a></div></div>
     </section>
     <!-- COLORS -->
+
+    <!-- GALLERY -->
+    <section class="section" data-anchor="gallery">
+        <div class="subir"><div class="flechcont_subir"><a href="#price" data-menuanchor="price"><i class="icoflecha icon-flecha"></i></a></div></div>
+        
+
+        
+    </section>
+    <!-- GALLERY -->
     
     <!-- PRICE -->
-    <section class="section" data-anchor="price">
+    <section id="precios" class="section" data-anchor="price">
         <div class="subir"><div class="flechcont_subir"><a href="#colors" data-menuanchor="colors"><i class="icoflecha icon-flecha"></i></a></div></div>
+        <div class="prices-cont">
+            <h3>ONLY ON APRIL 2015</h3>
+            <div class="txt-prices">
+                <span class="price-points">- 12 monthly payments of $5834.00 mxn with any card.<br />
+                - If you prefer to receive 10% off the total price when pay in cash.</span>
+                <span class="price-note">* The vehicle will be delivered once paid at least 50% of the total price</span>
 
 
-
+            </div>
+            <p class="price"></p>
+            <ul class="payments">
+                <li class="pay-item">* Payment ways:</li>
+                <li class="pay-item">* Deposit to account</li>
+                <li class="pay-item">* Paypal</li>
+                <li class="pay-item">* 3, 6, 9  y 12 months without interest with any card.</li>
+            </ul>
+             <div class="buy_prices">
+                        <a href="#" class="buy_button">BUY</a>
+            </div>
+        </div>
         <div class="bajar"><div class="flechcont_bajar"><a href="#contact" data-menuanchor="contact"><i class="icoflecha icon-flecha"></i></a></div></div>        
     </section>
     <!-- PRICE -->
@@ -290,9 +352,27 @@
     <!-- CONTACT -->
     <section class="section" data-anchor="contact">
         <div class="subir"><div class="flechcont_subir"><a href="#price" data-menuanchor="price"><i class="icoflecha icon-flecha"></i></a></div></div>
-        
+            <div class="contact-cont">
+                <div class="cont-up">
+                    <h4>CONTACT US</h4>
+                    <span>Río Lerma #110 Colonia San Miguel,<br />
+                    León Guanajuato México</span>
+                    <span>(477) 136 80 31<br />
+                    (477) 329 40 07</span>
+                    <span>quiero@vetelia.com</span>
+                    <h5>VIEW THE MAP -></h5>
+                </div>
+                <div class="cont-down">
+                    <h4>SOCIAL</h4>
+                    <a href="#"><i class="icon-google-plus2"></i></a>
+                    <a href="#"><i class="icon-instagram"></i></a>
+                    <a href="#"><i class="icon-twitter2"></i></a>
+                    <a href="#"><i class="icon-facebook2"></i></a>
+                    <a href="#"><i class="icon-youtube3"></i></a>
+                </div>
+            </div>
 
-
+        <article class="logo_verde"><img src="assets/logo_verde.png" alt="" ></article>
     </section>
     <!-- CONTACT -->
 </div>
@@ -302,16 +382,12 @@
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/jquery.fullPage.js"></script>
 <script src="js/vendors/jquery.easings.min.js"></script>
-<script src="js/base.js"></script>
-
 <script>
     $('#fullpage').fullpage({
     	anchors:['home', 'about','products','colors','price','contact'],
     	menu: '#menunav',
     });
 </script>
-<script src="js/inview.js"></script>
-
 <script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
 <script type="text/javascript">
     // setup ul.tabs to work as tabs for each div directly under div.panes
@@ -319,10 +395,11 @@
       /* tabs configuration goes here */
 
       // another property
-      effect: 'slide',
+      effect: 'fade',
 
       });
 </script>
-
+<script src="js/color.js"></script>
+<script src="js/base.js"></script>
 </body>
 </html>
