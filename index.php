@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/cssSlider.css" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/lightbox.css">
 
 </head>
 <body>
@@ -317,8 +318,22 @@
     <section class="section" data-anchor="gallery">
         <div class="subir"><div class="flechcont_subir"><a href="#price" data-menuanchor="price"><i class="icoflecha icon-flecha"></i></a></div></div>
         
+        <div id="gallery_table">
+             <ul class="gallery_row">
+                <li class="im_container"><a class="example-image-link" href="assets/gallery/vetelia_galeria1.png" data-lightbox="example-set" data-title="Click en la mitad derecha para ver más"><img src="assets/gallery/vetelia_galeria1.png" alt=""> </a> </li>
+                <li class="im_container2"><a class="example-image-link" href="assets/gallery/vetelia_galeria2.png" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria2.png" alt=""> </a> </li>
+                <li class="im_container"><a class="example-image-link" href="assets/gallery/vetelia_galeria3.png" data-lightbox="example-set" data-title=""><img src="assets/gallery/vetelia_galeria3.png" alt=""> </a> </li>
+                <li class="im_container"><a class="example-image-link" href="assets/gallery/vetelia_galeria4.png" data-lightbox="example-set" data-title=""><img src="assets/gallery/vetelia_galeria4.png" alt=""> </a> </li>
+             </ul>
+             <ul class="gallery_row">
+                <li class="im_container"> <a class="example-image-link" href="assets/gallery/vetelia_galeria5.png" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria5.png" alt=""> </a> </li>
+                <li class="im_container"> <a class="example-image-link" href="assets/gallery/vetelia_galeria6.png" data-lightbox="example-set" data-title=""><img src="assets/gallery/vetelia_galeria6.png" alt=""> </a> </li>
+                <li class="im_container2"> <a class="example-image-link" href="assets/gallery/vetelia_galeria7.png" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria7.png" alt=""> </a> </li>
+                <li class="im_container"> <a class="example-image-link" href="assets/gallery/vetelia_galeria8.png" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria8.png" alt=""> </a> </li>
+             </ul>
+           
+        </div>
 
-        
     </section>
     <!-- GALLERY -->
     
@@ -382,6 +397,16 @@
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/jquery.fullPage.js"></script>
 <script src="js/vendors/jquery.easings.min.js"></script>
+ <script type="text/javascript">
+    $(document).ready(function(){
+        $('.lightboxOverlay').on({
+            'mousewheel': function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            }
+        })
+    });
+    </script>
 <script>
     $('#fullpage').fullpage({
     	anchors:['home', 'about','products','colors','price','contact'],
@@ -401,5 +426,9 @@
 </script>
 <script src="js/color.js"></script>
 <script src="js/base.js"></script>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.js"></script>
+
 </body>
 </html>
