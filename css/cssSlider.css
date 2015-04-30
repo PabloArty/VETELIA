@@ -155,3 +155,29 @@
 .csslider > input:nth-of-type(11):checked ~ .navigation label:nth-of-type(11):after {
   opacity: 1;
 }
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .csslider > .navigation label {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 30px;
+  padding: 8px;
+  background: #C08132;
+  }
+
+  .csslider > .navigation label:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -3px;
+  margin-top: -3px;
+  background: #D1D1D1;
+  border-radius: 50%;
+  padding: 3px;
+  opacity: 0;
+  }
+
+}
