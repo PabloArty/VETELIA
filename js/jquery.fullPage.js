@@ -105,8 +105,8 @@
 
             //scrolling
             css3: true,
-            scrollingSpeed: 700,
-            autoScrolling: false,
+            scrollingSpeed: 900,
+            autoScrolling: true,
             fitToSection: false,
             easing: 'easeInOutCubic',
             easingcss3: 'ease',
@@ -115,9 +115,9 @@
             loopHorizontal: true,
             continuousVertical: false,
             normalScrollElements: null,
-            scrollOverflow: false,
-            touchSensitivity: 5,
-            normalScrollElementTouchThreshold: 5,
+            scrollOverflow: true,
+            touchSensitivity: 15,
+            normalScrollElementTouchThreshold: 20,
 
             //Accessibility
             keyboardScrolling: true,

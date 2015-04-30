@@ -10,11 +10,8 @@
     <link rel="stylesheet" href="css/cssSlider.css" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400italic' rel='stylesheet' type='text/css'>
-<<<<<<< HEAD
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,700,800,300italic,100italic' rel='stylesheet' type='text/css'>
-=======
     <link rel="stylesheet" href="css/lightbox.css">
->>>>>>> origin/master
 
 </head>
 <body>
@@ -95,7 +92,7 @@
                         <h3>OBJETIVES</h3>
                         <div class="bar-slide-three"></div>
                     </div>
-                    <table>
+                    <table class="objt-table">
                     <td class="mano objt">
                         <div class="objt-in">
                         <img src="icons/manoplanta_gris.svg" alt="" class="objt-image">
@@ -129,11 +126,39 @@
                     <h3>OUR IMPACT</h3>
                     <div class="bar-slide-one"></div>
                     <p>
-                        Fabricar la bicicleta híbrida más potente en América Latina y ser un fuerte competidor a nivel mundial en la venta de dichos vehículos.
+                        Make the most powerful hybrid bike in Latin America and be a strong competitor worldwide in the sale of such vehicles.
                     </p>
                     </div>
             </div>
-            <div class="slide"></div>
+            <div class="slide">
+                <div class="image-slide-five"><img src="assets/bici/vetelia-radix-5.png" alt=""></div>
+                <div class="txt-four-cont">
+                    <div class="txt-slide-five">
+                    <h3>OUR BENEFITS</h3>
+                    <div class="bar-slide-one"></div>
+                    </div>
+                    <div class="ben-list">
+                        <ul class="list-one">
+                            <li>It's good for your heart</li>
+                            <li>Battery High Life</li>
+                            <li>Lowers levels of blood cholesterol</li>
+                            <li>Zero fuel consumption</li>
+                            <li>It reduces stress levels and improves mood</li>
+                            <li>It helps reduce air pollution levels</li>
+                            <li>Maintenance is less expensive than an automobile</li>
+                        </ul>
+                        <ul class="list-two">
+                            <li>It's good for your muscles</li>
+                            <li>After sales service</li>
+                            <li>It helps improve motor coordination</li>
+                            <li>Nimble in traffic situations</li>
+                            <li>High-tech product development</li>
+                            <li>No need to worry about finding parking spot</li>
+                            <li>$0.90 MXN cost of recharging the electric motor</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         <article class="logo_verde"><img src="assets/logo_verde.png" alt="" ></article>
         <div class="bajar"><div class="flechcont_bajar"><a href="#products" data-menuanchor="products"><i class="icoflecha icon-flecha"></i></a></div></div>
     </section>
@@ -424,6 +449,7 @@
     $('#fullpage').fullpage({
     	anchors:['home', 'about','products','colors','price','contact'],
     	menu: '#menunav',
+        normalScrollElements: '.txt-four-cont, .half-bottom, .txt-slide-one',
     });
 </script>
 <script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
