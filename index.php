@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/cssSlider.css" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,700,800,300italic,100italic' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -55,7 +56,7 @@
                 </div>
             </div>
             <div class="slide">
-                  <div class="image-slide-two"><img src="assets/bici/vetelia-radix-2.png" alt=""></div>
+                    <div class="image-slide-two"><img src="assets/bici/vetelia-radix-2.png" alt=""></div>
                     <div class="txt-slide-two">
                     <h3>OUR MOTIVATION</h3>
                     <div class="bar-slide-one"></div>
@@ -118,7 +119,16 @@
                     </table>
                 </div>
             </div>
-            <div class="slide"></div>
+            <div class="slide">
+                <div class="image-slide-four"><img src="assets/bici/vetelia-radix-3.png" alt=""></div>
+                    <div class="txt-slide-four">
+                    <h3>OUR IMPACT</h3>
+                    <div class="bar-slide-one"></div>
+                    <p>
+                        Fabricar la bicicleta híbrida más potente en América Latina y ser un fuerte competidor a nivel mundial en la venta de dichos vehículos.
+                    </p>
+                    </div>
+            </div>
             <div class="slide"></div>
         <article class="logo_verde"><img src="assets/logo_verde.png" alt="" ></article>
         <div class="bajar"><div class="flechcont_bajar"><a href="#products" data-menuanchor="products"><i class="icoflecha icon-flecha"></i></a></div></div>
