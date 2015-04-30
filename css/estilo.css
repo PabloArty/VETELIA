@@ -590,7 +590,7 @@ section{
 	.panes{
 		margin: 0px;
 		padding: 0px;
-		height: 70%;
+		height: 40%;
 	}
 	.tabs{
 		margin: 0px;
@@ -634,11 +634,11 @@ section{
 		padding: 3.3% 0px;
 	}	
 	.row3{
-		height: 50%;
+		height: 30%;
 		background:#D8D8D8;
 	}
 	.row4{
-		height: 50%;
+		height: 100%;
 	}
 		#gray{
 			background: #979797;
@@ -697,6 +697,11 @@ section{
 			top: 40%;
 			margin: auto;
 		}
+
+	.specs img{
+		width: 25%;
+
+	}
 	/* ESTILOS DENTRO DE LOS SLIDERS DE PRODUCTOS */
 
 /* PRODUCTOS */
@@ -708,20 +713,21 @@ section{
 		margin: auto;
 	}
 	.gallery_row{
-		width: 90%;
-		margin: auto;
-		position: relative;
-		list-style-type: none;
-		text-align: center;
+		width: 95%;
+		  margin: auto;
+		  position: relative;
+		  list-style-type: none;
+		  text-align: center;
+		  margin: 0px;
 	}
 	.im_container{
 		width: 200px;
   		height: 250px;
 		position: relative;
-		padding: 10px 10px;
+		padding: 5px 5px;
 		display: inline-block;
 		background: #EAEAEA;
-		margin: 10px 10px 0px 10px;
+		margin: 10px 5px 0px 5px;
 	}
 
 	.im_container img{
@@ -730,17 +736,17 @@ section{
 	}
 
 	.im_container2{
-		width: 240px;
-  		height: 250px;
-		position: relative;
-		padding: 10px 10px;
-		display: inline-block;
-		background: #EAEAEA;
-		margin: 10px 10px 0px 10px;
+		  width: 300px;
+		  height: 250px;
+		  position: relative;
+		  padding: 5px 5px;
+		  display: inline-block;
+		  background: #EAEAEA;
+		  margin: 10px 0px 0px 0px;
 	}
 
 	.im_container2 img{
-		width: 250px;
+		width: 300px;
   		height: 250px;
 	}
 
@@ -1052,11 +1058,12 @@ section{
 		list-style-type: none;
 		text-align: center;
 	}
+	
 	.im_container{
 		width: 230px;
 		height: 350px;
 		position: relative;
-		padding: 10px 10px;
+		padding: 5px 5px;
 		display: inline-block;
 		background: #EAEAEA;
 		margin: 10px 10px 0px 10px;
@@ -1071,7 +1078,7 @@ section{
 		width: 440px;
 		height: 350px;
 		position: relative;
-		padding: 10px 10px;
+		padding: 5px 5px;
 		display: inline-block;
 		background: #EAEAEA;
 		margin: 10px 10px 0px 10px;

@@ -42,7 +42,7 @@
     <!-- HOME -->
 
     <!-- ABOUT -->
-    <section class="section" data-anchor="about">
+    <section id="nosotros" class="section" data-anchor="about">
         <div class="subir"><div class="flechcont_subir"><a href="#home" data-menuanchor="home"><i class="icoflecha icon-flecha"></i></a></div></div>
             <div class="slide">
                 <div class="image-slide-one"><img src="assets/bici/vetelia-radix-1.png" alt=""></div>
@@ -204,24 +204,26 @@
                 </ul>
             </article>
 
-            <div class="panes">
-                    
-                <div class="tabs_slide">
-                    <article class="slide_row row3">
-                        <!-- -->
+            <article class="slide_row row3">
+                <!-- -->
 
                         <div class="csslider">
                             <input type="radio" name="slides" id="slides_1" checked />
                             <input type="radio" name="slides" id="slides_2" />
                             <input type="radio" name="slides" id="slides_3" />
                             <input type="radio" name="slides" id="slides_4" />
-                            <input type="radio" name="slides" id="slides_N" />
-                            <ul>
-                                <li>Content of slide 1</li>
-                                <li>Content of slide 2</li>
-                                <li>Content of slide 3</li>
-                                <li>Content of slide 4</li>
-                                <li>Content of slide N</li>
+                            <input type="radio" name="slides" id="slides_5" />
+                            <input type="radio" name="slides" id="slides_6" />
+                            <input type="radio" name="slides" id="slides_7" />
+
+                            <ul class="specs">
+                                <li><img src="assets/specs/vetelia_specs1.png" alt=""></li>
+                                <li><img src="assets/specs/vetelia_specs2.png" alt=""></li>
+                                <li><img src="assets/specs/vetelia_specs3.png" alt=""></li>
+                                <li><img src="assets/specs/vetelia_specs4.png" alt=""></li>
+                                <li><img src="assets/specs/vetelia_specs5.png" alt=""></li>
+                                <li><img src="assets/specs/vetelia_specs6.png" alt=""></li>
+                                <li><img src="assets/specs/vetelia_specs7.png" alt=""></li>
                             </ul>
                             <div class="navigation">
                                 <div>
@@ -229,13 +231,20 @@
                                     <label for="slides_2"></label>
                                     <label for="slides_3"></label>
                                     <label for="slides_4"></label>
-                                    <label for="slides_N"></label>
+                                    <label for="slides_5"></label>
+                                    <label for="slides_6"></label>
+                                    <label for="slides_7"></label>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- -->
-                    </article>
+                <!-- -->
+            </article>
+
+            <div class="panes">
+                    
+                <div class="tabs_slide">
+
                     <article class="slide_row row4">
 
                         <div id="gray" class="row4_left">
@@ -255,9 +264,6 @@
                 </div>    
                 
                 <div class="tabs_slide">
-                    <article class="slide_row row3">
-                
-                    </article>
                     <article class="slide_row row4">
 
                         <div id="green" class="row4_left">
@@ -273,9 +279,6 @@
                 </div>
                 
                 <div class="tabs_slide">
-                    <article class="slide_row row3">
-                
-                    </article>
                     <article class="slide_row row4">
 
                         <div id="dark_gray" class="row4_left">
@@ -353,21 +356,21 @@
     <!-- COLORS -->
 
     <!-- GALLERY -->
-    <section class="section" data-anchor="gallery">
+    <section id="galeria" class="section" data-anchor="gallery">
         <div class="subir"><div class="flechcont_subir"><a href="#price" data-menuanchor="price"><i class="icoflecha icon-flecha"></i></a></div></div>
         
         <div id="gallery_table">
              <ul class="gallery_row">
-                <li class="im_container"><a class="example-image-link" href="assets/gallery/vetelia_galeria1.png" data-lightbox="example-set" data-title="Click en la mitad derecha para ver más"><img src="assets/gallery/vetelia_galeria1.png" alt=""> </a> </li>
-                <li class="im_container2"><a class="example-image-link" href="assets/gallery/vetelia_galeria2.png" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria2.png" alt=""> </a> </li>
-                <li class="im_container"><a class="example-image-link" href="assets/gallery/vetelia_galeria3.png" data-lightbox="example-set" data-title=""><img src="assets/gallery/vetelia_galeria3.png" alt=""> </a> </li>
-                <li class="im_container"><a class="example-image-link" href="assets/gallery/vetelia_galeria4.png" data-lightbox="example-set" data-title=""><img src="assets/gallery/vetelia_galeria4.png" alt=""> </a> </li>
+                <li class="im_container"><a class="example-image-link" href="assets/gallery/vetelia_galeria1.jpg" data-lightbox="example-set" data-title="Click en la mitad derecha para ver más"><img src="assets/gallery/vetelia_galeria1.jpg" alt=""> </a> </li>
+                <li class="im_container2"><a class="example-image-link" href="assets/gallery/vetelia_galeria2.jpg" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria2.jpg" alt=""> </a> </li>
+                <li class="im_container"><a class="example-image-link" href="assets/gallery/vetelia_galeria3.jpg" data-lightbox="example-set" data-title=""><img src="assets/gallery/vetelia_galeria3.jpg" alt=""> </a> </li>
+                <li class="im_container2"><a class="example-image-link" href="assets/gallery/vetelia_galeria6.jpg" data-lightbox="example-set" data-title=""><img src="assets/gallery/vetelia_galeria6.jpg" alt=""> </a> </li>
              </ul>
              <ul class="gallery_row">
-                <li class="im_container"> <a class="example-image-link" href="assets/gallery/vetelia_galeria5.png" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria5.png" alt=""> </a> </li>
-                <li class="im_container"> <a class="example-image-link" href="assets/gallery/vetelia_galeria6.png" data-lightbox="example-set" data-title=""><img src="assets/gallery/vetelia_galeria6.png" alt=""> </a> </li>
-                <li class="im_container2"> <a class="example-image-link" href="assets/gallery/vetelia_galeria7.png" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria7.png" alt=""> </a> </li>
-                <li class="im_container"> <a class="example-image-link" href="assets/gallery/vetelia_galeria8.png" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria8.png" alt=""> </a> </li>
+                <li class="im_container"> <a class="example-image-link" href="assets/gallery/vetelia_galeria4.jpg" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria4.jpg" alt=""> </a> </li>
+                <li class="im_container2"> <a class="example-image-link" href="assets/gallery/vetelia_galeria7.jpg" data-lightbox="example-set" data-title=""><img src="assets/gallery/vetelia_galeria7.jpg" alt=""> </a> </li>
+                <li class="im_container"> <a class="example-image-link" href="assets/gallery/vetelia_galeria5.jpg" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria5.jpg" alt=""> </a> </li>
+                <li class="im_container2"> <a class="example-image-link" href="assets/gallery/vetelia_galeria8.jpg" data-lightbox="example-set" data-title=""> <img src="assets/gallery/vetelia_galeria8.jpg" alt=""> </a> </li>
              </ul>
            
         </div>
